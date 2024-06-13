@@ -1,0 +1,167 @@
+CompileCommand: exclude com/intellij/openapi/vfs/impl/FilePartNodeRoot.trieDescend bool exclude = true
+2024-06-11 20:44:21,127 [    925]   WARN - #c.i.s.ComponentManagerImpl - `preload=true` must be used only for core services (service=com.jetbrains.rdserver.statistics.BackendStatisticsManager, plugin=com.jetbrains.codeWithMe)
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+Do not use URL connection as JarURLConnection
+2024-06-11 20:44:22,085 [   1883]   WARN - #c.i.s.ComponentManagerImpl - com.intellij.psi.search.FilenameIndex initializer requests com.intellij.ide.plugins.PluginUtil instance
+2024-06-11 20:44:23,531 [   3329] SEVERE - #c.i.o.e.c.i.EditorColorsManagerImpl - id is not specified for extension /colors/Tokyo Night
+java.lang.Throwable: id is not specified for extension /colors/Tokyo Night
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:376)
+	at com.intellij.openapi.editor.colors.impl.EditorColorsManagerImplKt$createLoadBundledSchemeRequests$1$1.getSchemeKey(EditorColorsManagerImpl.kt:733)
+	at com.intellij.configurationStore.schemeManager.SchemeManagerImpl.loadBundledSchemes(SchemeManagerImpl.kt:128)
+	at com.intellij.openapi.editor.colors.impl.EditorColorsManagerImpl.<init>(EditorColorsManagerImpl.kt:103)
+	at com.intellij.openapi.editor.colors.impl.EditorColorsManagerImpl.<init>(EditorColorsManagerImpl.kt:90)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.intellij.platform.instanceContainer.instantiation.InstantiateKt$instantiate$4.invoke(instantiate.kt:74)
+	at com.intellij.platform.instanceContainer.instantiation.InstantiateKt$instantiate$4.invoke(instantiate.kt:72)
+	at com.intellij.platform.instanceContainer.instantiation.InstantiateKt.instantiate(instantiate.kt:278)
+	at com.intellij.platform.instanceContainer.instantiation.InstantiateKt.instantiate(instantiate.kt:72)
+	at com.intellij.serviceContainer.InstantiateKt.instantiateWithContainer(instantiate.kt:19)
+	at com.intellij.serviceContainer.ServiceInstanceInitializer.createInstance$suspendImpl(ServiceInstanceInitializer.kt:26)
+	at com.intellij.serviceContainer.ServiceInstanceInitializer.createInstance(ServiceInstanceInitializer.kt)
+	at com.intellij.platform.instanceContainer.internal.LazyInstanceHolder$initialize$1$1.invokeSuspend(LazyInstanceHolder.kt:162)
+	at com.intellij.platform.instanceContainer.internal.LazyInstanceHolder$initialize$1$1.invoke(LazyInstanceHolder.kt)
+	at com.intellij.platform.instanceContainer.internal.LazyInstanceHolder$initialize$1$1.invoke(LazyInstanceHolder.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:78)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:167)
+	at kotlinx.coroutines.BuildersKt.withContext(Unknown Source)
+	at com.intellij.platform.instanceContainer.internal.LazyInstanceHolder$initialize$1.invokeSuspend(LazyInstanceHolder.kt:160)
+	at com.intellij.platform.instanceContainer.internal.LazyInstanceHolder$initialize$1.invoke(LazyInstanceHolder.kt)
+	at com.intellij.platform.instanceContainer.internal.LazyInstanceHolder$initialize$1.invoke(LazyInstanceHolder.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:44)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at com.intellij.platform.instanceContainer.internal.LazyInstanceHolder.initialize(LazyInstanceHolder.kt:145)
+	at com.intellij.platform.instanceContainer.internal.LazyInstanceHolder.access$initialize(LazyInstanceHolder.kt:13)
+	at com.intellij.platform.instanceContainer.internal.LazyInstanceHolder.tryInitialize(LazyInstanceHolder.kt:135)
+	at com.intellij.platform.instanceContainer.internal.LazyInstanceHolder.getInstance(LazyInstanceHolder.kt:95)
+	at com.intellij.platform.instanceContainer.internal.LazyInstanceHolder.getInstance$suspendImpl(LazyInstanceHolder.kt:83)
+	at com.intellij.platform.instanceContainer.internal.LazyInstanceHolder.getInstance(LazyInstanceHolder.kt)
+	at com.intellij.platform.instanceContainer.internal.InstanceContainerImpl.instance(InstanceContainerImpl.kt:67)
+	at com.intellij.serviceContainer.ComponentManagerImpl.getServiceAsync(ComponentManagerImpl.kt:993)
+	at com.intellij.ide.ui.html.GlobalStyleSheetHolderKt$initGlobalStyleSheet$2$1.invokeSuspend(GlobalStyleSheetHolder.kt:129)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+2024-06-11 20:44:23,575 [   3373] SEVERE - #c.i.o.e.c.i.EditorColorsManagerImpl - IntelliJ IDEA 2023.3.2  Build #IC-233.13135.103
+2024-06-11 20:44:23,575 [   3373] SEVERE - #c.i.o.e.c.i.EditorColorsManagerImpl - JDK: 17.0.9; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2024-06-11 20:44:23,576 [   3374] SEVERE - #c.i.o.e.c.i.EditorColorsManagerImpl - OS: Linux
+2024-06-11 20:44:23,577 [   3375] SEVERE - #c.i.o.e.c.i.EditorColorsManagerImpl - Last Action: 
+2024-06-11 20:44:26,302 [   6100]   WARN - #o.j.p.t.TextMateService - Cannot find referenced file `./language-configuration.json` in bundle `/home/lucopdev/idea-IC-232.10203.10/plugins/textmate/lib/bundles/mdx`
+2024-06-11 20:44:27,073 [   6871]   WARN - #c.i.s.ComponentManagerImpl - com.intellij.psi.LanguageSubstitutors initializer requests com.intellij.psi.LanguageSubstitutors instance
+2024-06-11 20:44:27,117 [   6915]   WARN - #c.i.s.ComponentManagerImpl - org.zmlx.hg4idea.provider.HgChangeProvider initializer requests com.intellij.openapi.vcs.FileStatusFactory instance
+2024-06-11 20:44:27,485 [   7283]   WARN - #c.i.o.v.n.p.d.e.DurableEnumeratorFactory - [enumerator.mmapped]: .valueToId map is out-of-sync with .valuesLog data -> rebuilding it
+2024-06-11 20:44:28,429 [   8227]   WARN - #c.i.i.s.i.StartupManagerImpl - Migrate org.infernus.idea.checkstyle.startup.NotifyUserIfPluginUpdated to ProjectActivity [Plugin: CheckStyle-IDEA]
+com.intellij.diagnostic.PluginException: Migrate org.infernus.idea.checkstyle.startup.NotifyUserIfPluginUpdated to ProjectActivity [Plugin: CheckStyle-IDEA]
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runPostStartupActivities(StartupManagerImpl.kt:277)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.access$runPostStartupActivities(StartupManagerImpl.kt:69)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$3$2.invokeSuspend(StartupManagerImpl.kt:192)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$3$2.invoke(StartupManagerImpl.kt)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$3$2.invoke(StartupManagerImpl.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:78)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:167)
+	at kotlinx.coroutines.BuildersKt.withContext(Unknown Source)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$3.invokeSuspend(StartupManagerImpl.kt:191)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+2024-06-11 20:44:28,435 [   8233]   WARN - #c.i.i.s.i.StartupManagerImpl - Migrate org.infernus.idea.checkstyle.startup.DisableCheckstyleLogging to ProjectActivity [Plugin: CheckStyle-IDEA]
+com.intellij.diagnostic.PluginException: Migrate org.infernus.idea.checkstyle.startup.DisableCheckstyleLogging to ProjectActivity [Plugin: CheckStyle-IDEA]
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runPostStartupActivities(StartupManagerImpl.kt:277)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.access$runPostStartupActivities(StartupManagerImpl.kt:69)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$3$2.invokeSuspend(StartupManagerImpl.kt:192)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$3$2.invoke(StartupManagerImpl.kt)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$3$2.invoke(StartupManagerImpl.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:78)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:167)
+	at kotlinx.coroutines.BuildersKt.withContext(Unknown Source)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$3.invokeSuspend(StartupManagerImpl.kt:191)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+2024-06-11 20:45:15,896 [  55694]   WARN - org.apache.velocity.deprecation - configuration key 'resource.loader' has been deprecated in favor of 'resource.loaders'
+2024-06-11 20:45:15,899 [  55697]   WARN - org.apache.velocity.deprecation - configuration key 'includes.resource.loader.instance' has been deprecated in favor of 'resource.loader.includes.instance'
+2024-06-11 20:46:25,813 [ 125611]   WARN - #c.i.u.x.Binding - no accessors for org.jetbrains.idea.maven.project.MavenHomeType
+2024-06-11 20:46:29,490 [ 129288]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2024-06-11 20:46:47,734 [ 147532]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2024-06-11 20:47:49,514 [ 209312]   WARN - org.apache.velocity.deprecation - configuration key 'resource.loader' has been deprecated in favor of 'resource.loaders'
+2024-06-11 20:47:49,515 [ 209313]   WARN - org.apache.velocity.deprecation - configuration key 'includes.resource.loader.class' has been deprecated in favor of 'resource.loader.includes.class'
+2024-06-11 20:49:50,667 [ 330465]   WARN - #c.i.s.ComponentManagerImpl - com.intellij.psi.codeStyle.CodeStyleSettingsCustomizable initializer requests com.intellij.util.LocaleSensitiveApplicationCacheService instance
+CompileCommand: exclude com/intellij/openapi/vfs/impl/FilePartNodeRoot.trieDescend bool exclude = true
